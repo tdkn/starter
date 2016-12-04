@@ -8,6 +8,11 @@ prose:
   media: 'media'
   metadata:
     _posts:
+      - name: "published"
+        field:
+          element: "checkbox"
+          label: "Published"
+          value: false
       - name: "category"
         field:
           element: "hidden"
